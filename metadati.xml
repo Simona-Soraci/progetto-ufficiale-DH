@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione">
+	<item n="1" xml:id="collezione-">
+		<genere>Fotografia</genere>
+		<titolo-item>La bambina con il pallone</titolo-item>
+		<immagine riferimento="img/bambinaconpanecatalogo.jpg"/>
+		<metadati>
+			<dc:title>La bambina con il pallone</dc:title>
+			<dc:creator><a href="http://vocab.getty.edu/page/ulan/500280343">Battaglia, Letizia.</a></dc:creator>
+			<dc:date>1980</dc:date>
+			<dc:subject><a href="http://vocab.getty.edu/page/aat/300162056">fotografia digitale in bianco e nero</a></dc:subject>
+			<dc:description>Fotografia digitale di fotografia analogica di Letizia Battaglia che ritrae una bambina con il suo pallone</dc:description>
+			<dc:publisher></dc:publisher>
+			<dc:type><a href="http://purl.org/dc/dcmitype/Image">Image</a></dc:type>
+			<dc:format>image/jpeg</dc:format>
+			<dc:identifier><a href="file:///Users/simonasoraci/Desktop/sito-esame/item.htm">file:///Users/simonasoraci/Desktop/sito-esame/item.htm</a></dc:identifier>
+			<dc:source></dc:source>
+			<dc:languages>it</dc:languages>
+			<dc:relation></dc:relation>
+			<dc:coverage><a href="http://vocab.getty.edu/page/tgn/1001732">Palermo, IT</a></dc:coverage>
+			<dc:rights></dc:rights>
+		</metadati>
+	</item>
+</collezione>
