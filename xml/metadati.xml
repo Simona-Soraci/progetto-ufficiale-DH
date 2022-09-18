@@ -2,10 +2,10 @@
 <collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione">
 	<item n="1" xml:id="collezione-">
 		<genere>Fotografia</genere>
-		<titolo-item>Bambina con pallone</titolo-item>
-		<immagine riferimento="img/BambinaPallonePalermo80.jpg.jpg"/>
+		<titolo-item>Bambina con il pallone</titolo-item>
+		<immagine riferimento="img/bambinaconpanecatalogo.jpg"/>
 		<metadati>
-			<dc:title>Bambina con pallone</dc:title>
+			<dc:title>Bambina con il pallone</dc:title>
 			<dc:creator><a href="http://vocab.getty.edu/page/ulan/500280343">Battaglia, Letizia.</a></dc:creator>
 			<dc:date>1980</dc:date>
 			<dc:subject>fotografia digitale</dc:subject>
