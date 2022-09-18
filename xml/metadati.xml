@@ -2,13 +2,13 @@
 <collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione">
 	<item n="1" xml:id="collezione-">
 		<genere>Fotografia</genere>
-		<titolo-item>Bambina con il pallone</titolo-item>
+		<titolo-item>La bambina con il pallone</titolo-item>
 		<immagine riferimento="img/bambinaconpanecatalogo.jpg"/>
 		<metadati>
-			<dc:title>Bambina con il pallone</dc:title>
+			<dc:title>La bambina con il pallone</dc:title>
 			<dc:creator><a href="http://vocab.getty.edu/page/ulan/500280343">Battaglia, Letizia.</a></dc:creator>
 			<dc:date>1980</dc:date>
-			<dc:subject><a href="http://vocab.getty.edu/page/aat/300162056"fotografia digitale in bianco e nero</a></dc:subject>
+			<dc:subject><a href="http://vocab.getty.edu/page/aat/300162056">fotografia digitale in bianco e nero</a></dc:subject>
 			<dc:description>Fotografia digitale di fotografia analogica di Letizia Battaglia che ritrae una bambina con il suo pallone</dc:description>
 			<dc:publisher></dc:publisher>
 			<dc:type><a href="http://purl.org/dc/dcmitype/Image">Image</a></dc:type>
