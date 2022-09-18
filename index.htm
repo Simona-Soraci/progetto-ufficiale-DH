@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-	<title>Letizia Battaglia</title>
 	<meta charset="UTF-8"/>
+	<!--dublin core-->
+	<meta name="DC.Title" content="Letizia Battaglia Archivio">
+	<meta name="DC.Creator" content="Simona Soraci">
+	<meta name="DC.Subject" content="archivio digitale">
+	<meta name="DC.Description" content="Archivio digitale delle fotografie della fotografa palermitana Letizia Battaglia">
+	<meta name="DC.Publisher" content="Università di Bologna">
+	<meta name="DC.Date" content="2022-09-17">
+	<meta name="DC.Type" content="Sito web">
+	<meta name="DC.Format" content="HTML/CSS/JS">
+	<meta name="DC.Identifier" href="https://simona-soraci.github.io/progetto-ufficiale-DH/">
+	<meta name="DC.Source" content="Bootstrap">
+	<meta name="DC.Language" content="it">
+	<meta name="DC.Relation" content="">
+	<meta name="DC.Rights" content="">
+	<title>Letizia Battaglia</title>
 	<link rel="shortcut icon" href="img/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style-esame.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
 </head>
 <body>
@@ -51,7 +64,8 @@
 		                <hr class="dropdown-divider"/>
 		              </li>
 		              <li><a class="dropdown-item" href="#">Date</a></li>
-		              <li><a class="dropdown-item" href="#">Luoghi</a></li>
+		              <li><a class="dropdown-item" href="#">Persone</a></li>
+		              <li><a class="dropdown-item" href="#">Temi</a></li>
 		            </ul>
 		          </li>
 		        </ul>
@@ -76,39 +90,51 @@
 	</header>
 	<section class="container-fluid">
 		<div class="container">
-			<h2>Il progetto</h2>
-			<p>Il catalogo 
+			<h2 class="text-justify">Il progetto</h2>
+			<p class="text-justify">Il catalogo 
 				<em>Letizia Battaglia</em> 
-			è un progetto del Digital Humanities Advanced Research Center (/DH.ARC) dell'Università di Bologna. <br/>Gli obiettivi principali del progetto sono...</p>
+			è un progetto realizzato per l'esame di Digital Humanities e Patrimonio Culturale (AA. 2021/2022) dell'Università di Bologna. <br/>Il progetto vuole ricostruire la vita e l'attività della fotografa palermitana Letizia Battaglia (1935 - 2022) attraverso la costruzione di un archivio digitale che comprende il catalogo, la biografia, la bibliografia relativa al soggetto e le mostre a cui questi ha preso parte. <br/>Gli obiettivi principali perseguiti sono la catalogazione, la metadatazione, la preservazione e la valorizzazione delle fotografie di Letizia Battaglia, ad oggi conservate nel suo archivio privato.
+			</p>
 		</div>	
 	</section>
 	<section class="container-fluid">
-		<div class="row">
+		<div class="row mb-5">
 			<div class="col-md-8">
-			<!--Inserire Tempo-->
+				<img src="img/Decadi.jpg" class="img-fluid"/>
 			</div>
 			<div class="col-md-4 border bg-light text-dark">
-					<!--mettere in linea-->
-					<h2 class="text-justify">Linea del Tempo</h2>
-					<p class="text-justify">Il catalogo è esplorabile attraverso una sezione <a href="" link="vai alla sezione Date">Date</a>, nella quale l'attività di Letizia Battaglia è ordinata secondo una linea temporale.</p>
+				<h2 class="text-justify mt-2">Date</h2>
+				<p class="text-justify">Il catalogo 
+					<em>Letizia Battaglia</em>
+					è esplorabile attraverso una sezione <a href="" class="link-dark" link="vai alla sezione Date">Date</a>, nella quale le fotografie sono ordinate secondo un criterio cronologico e inserite entro decadi temporali, a partire dagli anni '70.
+				</p>
+				<a href="" title="vai alla sezione Date"><button type="button" class="btn btn-outline-secondary">Esplora la sezione Date</button></a>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row mb-5">
 			<div class="col-md-4 border bg-light text-dark">
-				<h2 class="text-justify">Mappa</h2>
-				<p class="text-justify">Il catalogo è esplorabile attraverso una sezione Luoghi, nella quale l'attività di Letizia Battaglia è ordinata in base ai luoghi</p>
+				<h2 class="text-justify mt-2">Tematiche</h2>
+				<p class="text-justify">Le fotografie presenti nel catalogo 
+					<em>Letizia Battaglia</em>
+				 sono classificate anche secondo un'individuazione <a href="" class="link-dark" link="vai alla sezione Temi">tematica</a> sulla base del soggetto raffigurato: <br/>bambine, mafia, donne.
+				</p>
+				<a href="" title="vai alla sezione Date"><button type="button" class="btn btn-outline-secondary">Esplora la sezione Temi</button></a>
 			</div>
 			<div class="col-md-8">
-				<!--Inserire Mappa-->
+				<img src="img/Tematiche.jpg" class="img-fluid"/>
 			</div>
 		</div>
-		<div class="row">
+
+		<div class="row mb-5">
 			<div class="col-md-8">
-				<!--inserire percosi-->
+				<img src="img/Persone.jpg" class="img-fluid"/>
 			</div>
 			<div class="col-md-4 border bg-light text-dark">
-				<h2 class="text-justify">Tematiche</h2>
-				<p class="text-justify">Il catalogo è esplorabile attraverso una sezione Temi, nella quale bla bla bla bla bla</p>
+				<h2 class="text-justify mt-2">Persone</h2>
+				<p class="text-justify">
+					È inoltre possibile navigare il catalogo mediante una sezione <a href="" class="link-dark" link="vai alla sezione Persone">Persone</a> che permette di filtrare la raccolta secondo la persona e/o figura storica che si ricerca.
+				</p>
+				<a href="" title="vai alla sezione Persone"><button type="button" class="btn btn-outline-secondary">Esplora la sezione Persone</button></a>
 			</div>
 		</div>
 	</section>
