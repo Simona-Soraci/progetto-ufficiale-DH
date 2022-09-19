@@ -1,10 +1,18 @@
-/* Container holding the image and the text */
+
 .container-fluid {
   position: relative;
 }
 .navbar-brand {
   font-family: 'Chonburi';font-size: 22px;
 }
+/* aggiunta spazi alla navbar */
+.spazio-sinistra {
+  margin-left: 100px;
+}
+.spazio-destra {
+  margin-right: 100px;
+}
+
 .offcanvas-header {
   font-family: 'EB Garamond';font-size: 22px;
 }
@@ -41,14 +49,14 @@
   color: black;
 }
 .carousel {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .footer-list {
   list-style-type: none;
 }
 
 
-
+/* css bootstrap catalogo album non modificato */
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -80,70 +88,44 @@
   vertical-align: -.125em;
   fill: currentColor;
 }
+/* fine catalogo album bootstrap */
 
-.nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
+/* catalogo album mie aggiunte */
+#catalogo {
+  margin-bottom: -50px;
 }
-
-.nav-scroller .nav {
-  display: flex;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-
-/*catalogo*/
 .breadcrumb {
   font-family: 'EB Garamond';font-size: 15px;
   margin-top: 15px;
-}
-#catalogo {
-  margin-bottom: -50px;
 }
 .card-img-top {
   max-height: 600px;
   width:  500px;
 }
-
 .card-title {
   font-family: 'Chonburi';font-size: 22px;
-}
-.page-item-active {
-  background-color: #4CAF50;
-  color: white;
 }
 .margini {
   margin-top: 14px;
   margin-bottom: 16.5px;
 }
 #spazio {
-  height: 50px;
+  height: 40px;
 }
 
-.carder-center {
-margin: 0 auto;
-width: 250px;
-padding: 20px;
+/* fine catalogo album mie aggiunte */
+
+/* pagination catalogo */
+.page-item-active {
+  background-color: #4CAF50;
+  color: white;
 }
 
-
-.spazio-sinistra {
-  margin-left: 100px;
-}
-.spazio-destra {
-  margin-right: 100px;
-}
+/* pagina item */
 #font-item {
   font-family: 'EB Garamond';font-size: 22px;
 }
+/* togliere il bordo */
 #briciole {
   margin-bottom: inherit;
 }

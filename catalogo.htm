@@ -69,7 +69,7 @@
 		          </li>
 		        </ul>
 		        <form class="d-flex" role="search">
-		          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		          <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
 		          <button class="btn btn-outline-secondary" type="submit">Cerca</button>
 		        </form>
 		      </div>
@@ -77,12 +77,13 @@
 		  </div>
 		</nav>
 	</header>
+	<!--example album bootstrap-->
 	<main>
 		<section class="py-5 text-center container" id="catalogo">
 		    <div class="row">
-		      <div class="col-md-8 mx-auto">
-		        <h1 class="fw-light text-center">Catalogo Item</h1>
-		        <p class="lead text-muted text-center">Il catalogo è esplorabile attraverso una sezione Date, Temi e Persone.</p>
+		      <div class="col-md-12 mx-auto">
+		        <h1 class="text-center">Catalogo Item</h1>
+		        <p class="text-muted text-center">Il catalogo è esplorabile attraverso una sezione Date, Temi e Persone.</p>
 		          <a href="#" class="btn btn-secondary my-2" title="Vai alla sezione Date">Date</a>
 		          <a href="#" class="btn btn-secondary my-2" title="Vai alla sezione Luoghi">Temi</a>
 		          <a href="#" class="btn btn-secondary my-2" title="Vai alla sezione Temi">Persone</a>
@@ -90,10 +91,9 @@
 		      </div>
 		    </div>
 		</section>
-			<!--apertura catalogo item riallinea-->
 		 	<div class="album bg-light">
 		    	<div class="container">
-		    		<!--breadcrumb-->
+		    		<!--breadcrumb mia aggiunta-->
 		    		<div class="row">
 		    			<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
 							  <ol class="breadcrumb">
@@ -103,10 +103,10 @@
 						</nav>
 		    		</div>
 
-				    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+				    <div class="row">
 				    	<!--prima card-->
-				        <div class="col">
-					        <div class="card h-100 shadow-sm">
+				        <div class="col-md-4 mb-3">
+					        <div class="card shadow-sm">
 					            <img src="img/BambinaPallonePalermo80.jpg" class="card-img-top img-thumbnail" alt="Bambina con il suo pallone" title="via Artribute"/>
 
 					            <div class="card-body">	
@@ -118,7 +118,7 @@
 							        <p class="card-text">
 							        	Data: 1980.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Palermo, quartiere La Cala.
 							        </p>
 							        <div class="d-flex justify-content-between align-items-center">						    
@@ -135,8 +135,8 @@
 				        </div>
 
 					    <!--seconda card-->    
-				        <div class="col">
-					        <div class="card h-100 shadow-sm">
+				        <div class="col-md-4 mb-3">
+					        <div class="card shadow-sm">
 					            <img src="img/bambinaconpanecatalogo.jpg" class="card-img-top img-thumbnail" alt="Bambina con pane" title="via Google Art & Culture"/>
 
 					            <div class="card-body">
@@ -148,7 +148,7 @@
 							        <p class="card-text">
 							        	Data: 1970.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Palermo.
 							        </p>
 									<div class="d-flex justify-content-between align-items-center">
@@ -161,8 +161,8 @@
 				        </div>
 
 				        <!--terza card-->
-				        <div class="col">
-				          	<div class="card h-100 shadow-sm">
+				        <div class="col-md-4 mb-3">
+				          	<div class="card shadow-sm">
 				            	<img src="img/Il-gioco-del-killer-1982.jpg" class="card-img-top img-thumbnail" alt="Bambino con pistola" title=""/>
 
 				            	<div class="card-body">
@@ -174,7 +174,7 @@
 							        <p class="card-text">
 							        	Data: 1982.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Palermo.
 							        </p>
 				             		<div class="d-flex justify-content-between align-items-center">
@@ -187,8 +187,8 @@
 				        </div>
 
 				      	<!--quarta card-->
-			        	<div class="col">
-			          		<div class="card h-100 shadow-sm">
+			        	<div class="col-md-4 mb-3">
+			          		<div class="card shadow-sm">
 			            		<img src="img/Donnachefuma.jpg" class="card-img-top img-thumbnail" alt="Donna che fuma" title=""/>
 
 			            		<div class="card-body">
@@ -200,7 +200,7 @@
 							        <p class="card-text">
 							        	Data: 1984.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Catania.
 							        </p>			            
 			              			<div class="d-flex justify-content-between align-items-center">
@@ -213,8 +213,8 @@
 			        	</div>
 
 			        	<!--quinta card-->
-			        	<div class="col">
-			          		<div class="card h-100 shadow-sm">
+			        	<div class="col-md-4 mb-3">
+			          		<div class="card shadow-sm">
 			            		<img src="img/laricamatrice.jpg" class="card-img-top img-thumbnail" alt="Donna che ricama"/>
 
 			            		<div class="card-body">
@@ -226,7 +226,7 @@
 							        <p class="card-text">
 							        	Data: 1987.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Montemaggiore Belsito, (PA).
 							        </p>
 			              			<div class="d-flex justify-content-between align-items-center">
@@ -239,8 +239,8 @@
 			        	</div>
 
 			        	<!--sesta card-->
-			        	<div class="col">
-			          		<div class="card h-100 shadow-sm">
+			        	<div class="col-md-4 mb-3">
+			          		<div class="card shadow-sm">
 			            		<img src="img/RosariaCosta2.jpg" class="card-img-top img-thumbnail" alt="Donna che stira" title=""/>
 
 			            		<div class="card-body">
@@ -252,7 +252,7 @@
 							        <p class="card-text">
 							        	Data: 1992.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Palermo.
 							        </p>
 			              			<div class="d-flex justify-content-between align-items-center">
@@ -265,8 +265,8 @@
 			        	</div>
 
 			        	<!--settima card-->
-			        	<div class="col">
-			          		<div class="card h-100 shadow-sm">
+			        	<div class="col-md-4 mb-3">
+			          		<div class="card shadow-sm">
 			          			<img src="img/mattarella-copyright-letizia-battaglia.jpg" class="card-img-top img-thumbnail" alt="Presidente Mattarella colpito a morte" title=""/>
 			            
 			            		<div class="card-body">
@@ -278,7 +278,7 @@
 							        <p class="card-text">
 							        	Data: 1980.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Palermo.
 							        </p>
 				              		<div class="d-flex justify-content-between align-items-center">
@@ -291,8 +291,8 @@
 			        	</div>
 
 			        	<!--ottava card-->
-				        <div class="col">
-					        <div class="card h-100 shadow-sm">
+				        <div class="col-md-4 mb-3">
+					        <div class="card shadow-sm">
 					           <img src="img/ArrestoBagarella.jpg" class="card-img-top img-thumbnail" alt="Arresto Leoluca Bagarella" title=""/>
 
 				            	<div class="card-body">
@@ -304,7 +304,7 @@
 							        <p class="card-text">
 							        	Data: 1979.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Palermo.
 							        </p>
 						            <div class="d-flex justify-content-between align-items-center">
@@ -317,8 +317,8 @@
 				        </div>
 
 				        <!--nona card-->
-			        	<div class="col">
-			          		<div class="card h-100 shadow-sm">
+			        	<div class="col-md-4 mb-3">
+			          		<div class="card shadow-sm">
 			            		<img src="img/falcone.jpg" class="card-img-top img-thumbnail" alt="Falcone al funerale del generale Dalla Chiesa" title=""/>
 
 			            		<div class="card-body">
@@ -330,7 +330,7 @@
 							        <p class="card-text">
 							        	Data: 1982.
 							        </p>
-							        <p= class="card-text">
+							        <p class="card-text">
 							        	Luogo: Palermo.
 							        </p>
 			              			<div class="d-flex justify-content-between align-items-center">
@@ -350,7 +350,7 @@
 	<!--pagination-->
 	<div class="row">
 		<div class="col-md-12">
-			<nav aria-label="Page navigation example">
+			<nav aria-label="Page navigation">
 			  <ul class="pagination pagination-sm justify-content-center">
 			    <li class="page-item disabled">
 			      <a class="page-link">Previous</a>
